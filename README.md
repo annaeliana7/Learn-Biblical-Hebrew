@@ -39,9 +39,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 NAME OF PROJECT<a name="about-project"></a>
+# 📖 Learn Biblical Hebrew<a name="about-project"></a>
 
-**Name of Project** is a project ...complete sentence
+**Learn Biblical Hebrew**
+<br>
+
+Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linters, and Webpack. The platform serves as an online resource for learning Biblical Hebrew, with a focus on a hands-on, interactive learning experience.
 
 <br>
 
