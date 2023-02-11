@@ -1,8 +1,7 @@
 <a name="readme-top"></a>
+<div align="center">
 
-<div align="center"> 
-
-  <img src="kefi-Unearthed-5.png" alt="logo" width="280"  height="auto" />
+  <img src="assets-README/kefi-Unearthed-5.png" alt="logo" width="280"  height="auto" />
     <h3><b>Anna Petras for KING YESHUA - Kefi Unearthed</b></h3>
   <br/>
 💜
@@ -49,6 +48,7 @@ Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linter
 <br>
 
 ## 🛠 Built With <a name="built-with"></a>
+
     HTML
     CSS
     Javascript (ES6)
@@ -58,8 +58,9 @@ Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linter
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Demo Image
+
 <br>
-<img align="center" src="project_demo.png" alt="logo" width="100%"  height="auto" />
+<img align="center" src="assets-README/project_demo.png" alt="logo" width="100%"  height="auto" />
 
   <br/>
 
@@ -68,7 +69,6 @@ Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linter
 [Name of Project](https://ADD LINK.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -90,7 +90,6 @@ In order to run this project you need:
 
 -Any broswer
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Setup
@@ -104,8 +103,7 @@ Clone this repository to your desired folder:
 - Go to the repository folder using command prompt cd NAME-OF-FILE
 
 - Install the dev dependencies for linters run npm install.
---->
-
+  --->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,9 +114,7 @@ Anna Petras
 
 - GitHub: [@annaeliana7](https://github.com/annaeliana7)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -128,7 +124,6 @@ Anna Petras
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -137,21 +132,18 @@ Feel free to check the [issues page](https://ADD LINK.git).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 💜 HaShem (Abba) and Yeshua, I LOVE YOU! 💜 Thank you!
 I HONOR + GLORIFY YOU FOREVER ... 💜
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
@@ -164,7 +156,7 @@ This project is [MIT](./LICENSE) licensed.
 <!-- Author's message -->
 
 <div align="center">
-    <img src="kefi-Unearthed-5.png" alt="logo" width="250"  height="auto" />
+<img src="assets-README/kefi-Unearthed-5.png" alt="logo" width="280"  height="auto" />
     <h3><b>Anna Petras for KING YESHUA - Kefi Unearthed</b></h3>
 💜
 <br>
