@@ -139,6 +139,7 @@ body {
   position: relative;
   width: 100vw;
   height: 75vh;
+  overflow: hidden;
 }
 
 .carousel-inner {
@@ -180,11 +181,9 @@ body {
 #footer {
   display: none;
   justify-content: center;
+  padding: 25px;
   width: 100%;
   bottom: 0;
-  position: absolute;
-  left: 0;
-  padding-bottom: 15px;
 }
 
 .about-footer .footer-content p {
@@ -215,6 +214,16 @@ body {
   padding-right: 15px;
 }
 
+#footer::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* desktop version */
 @media all and (min-width: 768px) {
   /* home page  */
@@ -236,6 +245,7 @@ body {
   /* footer */
   #footer {
     display: flex;
+    padding: 24px 24px;
   }
 
   .about-footer .footer-content p {

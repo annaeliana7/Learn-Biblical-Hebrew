@@ -60,7 +60,7 @@ Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linter
 ## Project Demo Image
 
 <br>
-<img align="center" src="assets-README/project_demo3.png" alt="logo" width="100%"  height="auto" />
+<img align="center" src="assets-README/project_demo.png" alt="logo" width="100%"  height="auto" />
 
   <br/>
 
