@@ -51,7 +51,7 @@ Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linter
 
     HTML
     CSS
-    Javascript (ES6)
+    Javascript
     Webpack
     Linters
 
@@ -66,7 +66,7 @@ Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linter
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Name of Project](https://ADD LINK.git)
+[Learn Biblical Hebrew](https://annaeliana7.github.io/Learn-Biblical-Hebrew/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,9 +76,9 @@ Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linter
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone `https://github.com/annaeliana7/ADD LINK.git`
+- On the terminal run this command git clone `https://github.com/annaeliana7/Learn-Biblical-Hebrew`
 
-- Go to the repository folder using command prompt cd `NAME OF PROJECT`
+- Go to the repository folder using command prompt cd `Learn Biblical Hebrew`
 
 - Install the dev dependencies for linters run npm install.
 
@@ -98,9 +98,9 @@ Clone this repository to your desired folder:
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone https://ADD LINK.git
+- On the terminal run this command git clone https://github.com/annaeliana7/Learn-Biblical-Hebrew
 
-- Go to the repository folder using command prompt cd NAME-OF-FILE
+- Go to the repository folder using command prompt cd Learn Biblical Hebrew
 
 - Install the dev dependencies for linters run npm install.
   --->
@@ -128,7 +128,7 @@ Anna Petras
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://ADD LINK.git).
+Feel free to check the [issues page](https://github.com/annaeliana7/Learn-Biblical-Hebrew/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
