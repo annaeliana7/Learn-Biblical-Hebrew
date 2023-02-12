@@ -94,6 +94,15 @@ body {
   display: none;
 }
 
+.carousel-inner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .main-nav .icon-nav img {
   height: 100%;
   object-fit: cover;
@@ -137,15 +146,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-}
-
-.carousel-inner img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .carousel-inner img.active {
