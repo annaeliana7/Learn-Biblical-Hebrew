@@ -183,7 +183,6 @@ body {
   justify-content: center;
   padding: 25px;
   width: 100%;
-  position: fixed;
   bottom: 0;
 }
 
@@ -226,7 +225,6 @@ body {
 }
 
 /* desktop version */
-
 @media all and (min-width: 768px) {
   /* home page  */
 
