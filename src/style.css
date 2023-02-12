@@ -125,20 +125,21 @@ body {
   color: var(--red-color);
 }
 
-  /* desktop version */
-  @media all and (min-width: 768px) {
-    /* home page  */
-  
-    /* header  */
-    .main-nav .icon-nav,
-    .main-nav .bottom-nav {
-      display: flex;
-    }
-  
-    .main-nav .icon-menu-mobile {
-      display: none;
-    }
-  
-    .nav-mobile {
-      display: none !important;
-    }
+/* desktop version */
+@media all and (min-width: 768px) {
+  /* home page  */
+
+  /* header  */
+  .main-nav .icon-nav,
+  .main-nav .bottom-nav {
+    display: flex;
+  }
+
+  .main-nav .icon-menu-mobile {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: none !important;
+  }
+}
