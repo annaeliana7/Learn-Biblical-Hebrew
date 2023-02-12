@@ -89,6 +89,12 @@ body {
   margin-top: 25px;
 }
 
+.video-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .main-nav .icon-nav {
   height: 72px;
   display: none;
@@ -202,12 +208,6 @@ img.king-yeshua {
   height: 75vh;
   background-size: cover;
   overflow: hidden;
-}
-
-.video-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .video-overlay {
