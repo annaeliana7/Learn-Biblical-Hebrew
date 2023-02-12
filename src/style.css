@@ -185,18 +185,8 @@ body {
   position: absolute;
   left: 0;
   padding-bottom: 15px;
-}
-
-.about-footer .footer-content p {
-  color: var(--black-color);
-}
-
-#footer .footer-content {
-  width: 100%;
-  height: 50px;
-  display: flex;
+  padding-top: 15px;
   align-items: center;
-  justify-content: center;
 }
 
 #footer .footer-logo {
@@ -213,6 +203,7 @@ body {
   text-transform: capitalize;
   padding-top: 15px;
   padding-right: 15px;
+  color: var(--black-color);
 }
 
 /* desktop version */
