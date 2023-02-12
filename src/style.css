@@ -78,7 +78,7 @@ body {
 
 .nav-mobile .container li a {
   text-decoration: none;
-  color: var(--grey-color);
+  color: var(--black-color);
   font-size: 2em;
 }
 
