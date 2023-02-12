@@ -94,6 +94,15 @@ body {
   display: none;
 }
 
+.carousel-inner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .main-nav .icon-nav img {
   height: 100%;
   object-fit: cover;
@@ -125,14 +134,55 @@ body {
   color: var(--red-color);
 }
 
-/* footer */
+/* carousel */
+.carousel {
+  position: relative;
+  width: 100vw;
+  height: 75vh;
+  overflow: hidden;
+}
 
+.carousel-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner img.active {
+  display: block;
+}
+
+.carousel-inner img:not(.active) {
+  display: none;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+/* footer */
 #footer {
   display: none;
   justify-content: center;
   padding: 25px;
   width: 100%;
-  position: fixed;
   bottom: 0;
 }
 
