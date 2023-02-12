@@ -148,6 +148,15 @@ body {
   justify-content: center;
 }
 
+#footer .footer-logo {
+  width: 100px;
+}
+
+#footer .footer-logo img {
+  width: 100%;
+  border-radius: 20px;
+}
+
 #footer .footer-content p {
   font-weight: 600;
   text-transform: capitalize;
@@ -191,5 +200,11 @@ body {
 
   .about-footer .footer-content p {
     color: var(--black-color);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #footer {
+    display: none;
   }
 }
