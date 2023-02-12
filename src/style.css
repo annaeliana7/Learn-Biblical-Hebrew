@@ -134,6 +134,25 @@ body {
   color: var(--red-color);
 }
 
+/* king image */
+.king {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black-color);
+  width: 100%;
+}
+
+.king-letters {
+  text-align: center;
+  filter: invert(74%) sepia(8%) saturate(643%) hue-rotate(228deg) brightness(100%) contrast(90%);
+}
+
+img.king-yeshua {
+  max-width: 75%;
+  width: 100%;
+}
+
 /* carousel */
 .carousel {
   position: relative;
