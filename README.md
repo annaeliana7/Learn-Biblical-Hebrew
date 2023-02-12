@@ -9,7 +9,6 @@
   <br/>
   
 </div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -43,7 +42,13 @@
 **Learn Biblical Hebrew**
 <br>
 
-Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linters, and Webpack. The platform serves as an online resource for learning Biblical Hebrew, with a focus on a hands-on, interactive learning experience.
+Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linters, and Webpack. The platform serves as an online resource for learning Biblical Hebrew, with a focus on a hands-on, interactive learning experience. The development process utilized a Kanban board approach and was built using Visual Studio Code and GitHub.
+
+<br>
+
+## 🏆 Kanban Template
+
+This project was developed using a Kanban board approach. The Kanban board used during the development of this project can be accessed here: [Kanban Board Link](https://github.com/annaeliana7/Learn-Biblical-Hebrew/projects/1)
 
 <br>
 
@@ -54,6 +59,9 @@ Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linter
     Javascript
     Webpack
     Linters
+    Kanban Board
+    Visual Studio Code
+    GitHub
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,6 +115,7 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- Author -->
 
 👤 **Author**
@@ -154,7 +163,6 @@ This project is [MIT](./LICENSE) licensed.
 <br>
 
 <!-- Author's message -->
-
 <div align="center">
 <img src="assets-README/kefi-Unearthed-5.png" alt="logo" width="280"  height="auto" />
     <h3><b>Anna Petras for KING YESHUA - Kefi Unearthed</b></h3>
