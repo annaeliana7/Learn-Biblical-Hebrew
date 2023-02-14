@@ -1,5 +1,10 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+let htmlPageNames = ['index', 'about'];
+let multipleHtmlPlugins = htmlPageNames.map((name) => new HtmlWebpackPlugin({
+  template: `./src/${name}.html`, // relative path to the HTML files
+  filename: `${name}.html`, // output HTML files    chunks: [`${name}`], // respective JS files
+}));
 
 module.exports = {
   mode: 'production',
@@ -23,9 +28,10 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src', 'index.html'),
+      template: './src/index.html',
+      chunks: ['main'],
     }),
-  ],
+  ].concat(multipleHtmlPlugins),
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
