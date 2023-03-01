@@ -332,40 +332,40 @@ img.king-yeshua {
     display: none !important;
   }
 
-    /* banner */
-    .banner h2 {
-      font-size: 5.5em;
-      font-weight: 900;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.725);
-    }
-  
-    .banner p {
-      font-size: 3em;
-      text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.725);
-    }
-  
-    .banner {
-      padding: 5em 0 5em 0;
-      text-align: center;
-      width: 100%;
-      background-image: url('images/Western_Wall.JPG');
-      background-repeat: no-repeat;
-      background-size: cover;
-      box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.143);
-    }
-  
-    .border {
-      width: 60%;
-      margin: 0 auto;
-      height: 47px;
-      border: 3px solid #c3b3d3;
-      border-bottom: 0;
-    }
-  
-    .border-bottom {
-      border-top: 0;
-      border-bottom: 3px solid #c3b3d3;
-    }
+  /* banner */
+  .banner h2 {
+    font-size: 5.5em;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.725);
+  }
+
+  .banner p {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.725);
+  }
+
+  .banner {
+    padding: 5em 0 5em 0;
+    text-align: center;
+    width: 100%;
+    background-image: url('images/Western_Wall.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.143);
+  }
+
+  .border {
+    width: 60%;
+    margin: 0 auto;
+    height: 47px;
+    border: 3px solid #c3b3d3;
+    border-bottom: 0;
+  }
+
+  .border-bottom {
+    border-top: 0;
+    border-bottom: 3px solid #c3b3d3;
+  }
 
   /* footer */
   #footer {
