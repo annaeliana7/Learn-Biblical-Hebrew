@@ -18,7 +18,7 @@ body {
   background-color: var(--white-color);
 }
 
-/* header section  */
+/* ******* header section ******* */
 #header {
   position: absolute;
   top: 0;
@@ -140,7 +140,59 @@ body {
   color: var(--red-color);
 }
 
-/* King Image */
+/* ******* banner section ******* */
+
+/* banner */
+.banner {
+  padding: 3em 0 3em 0;
+  text-align: center;
+  width: 100%;
+  background-image: url('images/Western_Wall.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.143);
+}
+
+.border {
+  width: 60%;
+  margin: 0 auto;
+  height: 47px;
+  border: 2px solid #c3b3d3;
+  border-bottom: 0;
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #c3b3d3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.725);
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  padding: 0.5em 5px 0 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner p {
+  color: #273a33;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.725);
+  font-weight: bold;
+  margin: 1em 0 0 0;
+  line-height: 2em;
+  letter-spacing: 2px;
+  padding: 0 16px 0 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.border-bottom {
+  border-top: 0;
+  border-bottom: 2px solid #c3b3d3;
+}
+
+/* ******* King Image ******* */
 .king {
   display: flex;
   align-items: center;
@@ -159,7 +211,7 @@ img.king-yeshua {
   width: 100%;
 }
 
-/* carousel */
+/* ******* carousel ******* */
 .carousel {
   position: relative;
   width: 100vw;
@@ -201,7 +253,7 @@ img.king-yeshua {
   right: 0;
 }
 
-/* video link */
+/* ******* video link ******* */
 .video-container {
   position: relative;
   width: 100%;
@@ -233,7 +285,7 @@ img.king-yeshua {
   transform: translate(-50%, -50%);
 }
 
-/* footer */
+/* ******* footer ******* */
 #footer {
   display: none;
   justify-content: center;
@@ -262,7 +314,7 @@ img.king-yeshua {
   color: var(--black-color);
 }
 
-/* desktop version */
+/* ******* desktop version ******* */
 @media all and (min-width: 768px) {
   /* home page  */
 
@@ -279,6 +331,41 @@ img.king-yeshua {
   .nav-mobile {
     display: none !important;
   }
+
+    /* banner */
+    .banner h2 {
+      font-size: 5.5em;
+      font-weight: 900;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.725);
+    }
+  
+    .banner p {
+      font-size: 3em;
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.725);
+    }
+  
+    .banner {
+      padding: 5em 0 5em 0;
+      text-align: center;
+      width: 100%;
+      background-image: url('images/Western_Wall.JPG');
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.143);
+    }
+  
+    .border {
+      width: 60%;
+      margin: 0 auto;
+      height: 47px;
+      border: 3px solid #c3b3d3;
+      border-bottom: 0;
+    }
+  
+    .border-bottom {
+      border-top: 0;
+      border-bottom: 3px solid #c3b3d3;
+    }
 
   /* footer */
   #footer {
