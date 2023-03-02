@@ -140,6 +140,42 @@ body {
   color: var(--red-color);
 }
 
+/* Transitions/Animation- Adds a hover effect animating a line */
+.bottom-nav a {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.bottom-nav a::before,
+.bottom-nav a::after {
+  content: '';
+  width: 100%;
+  transform-origin: bottom;
+  transform: scaleX(0);
+  transition: all 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  background-color: #c3b3d3;
+  height: 3px;
+  bottom: 1px;
+  right: 0;
+  position: absolute;
+}
+
+.bottom-nav a:hover::before,
+.bottom-nav a:hover::after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.bottom-nav a:hover::after {
+  transition-delay: 0.2s;
+}
+
+.bottom-nav li a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+
 /* ******* banner section ******* */
 
 /* banner */
