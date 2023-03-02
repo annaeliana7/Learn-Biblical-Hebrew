@@ -188,6 +188,17 @@ body {
   gap: 50px;
 }
 
+.bottom-nav li {
+  color: var(--black-color);
+}
+
+.bottom-nav button {
+  padding: 8px;
+  background-color: transparent;
+  border: 5px solid var(--red-color);
+  color: var(--red-color);
+}
+
 /* ******* banner section ******* */
 
 /* banner */
