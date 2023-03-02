@@ -175,6 +175,19 @@ body {
   text-decoration: none;
 }
 
+/* Transitions/Animations- increase font size  */
+.bottom-nav a:hover {
+  color: #707070;
+  cursor: pointer;
+  transform: scale(1.15);
+  font-size: 1.3em;
+}
+
+.nav-mobile .container li a {
+  text-decoration: none;
+  color: #c3b3d3;
+  font-size: 2em;
+}
 
 /* ******* banner section ******* */
 
