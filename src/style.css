@@ -150,7 +150,8 @@ body {
   background-image: url('images/Western_Wall.JPG');
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.143);
+
+  /* box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.143); */
 }
 
 .border {
@@ -179,6 +180,7 @@ body {
   text-transform: uppercase;
   font-size: 1.1em;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.725);
+  background-color: rgba(245, 222, 179, 0.587);
   font-weight: bold;
   margin: 1em 0 0 0;
   line-height: 2em;
@@ -203,6 +205,7 @@ body {
 
 .king-letters {
   text-align: center;
+  padding: 5px;
   filter: invert(74%) sepia(8%) saturate(643%) hue-rotate(228deg) brightness(100%) contrast(90%);
 }
 
@@ -342,6 +345,7 @@ img.king-yeshua {
   .banner p {
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.725);
+    background-color: rgba(245, 222, 179, 0.587);
   }
 
   .banner {
@@ -351,7 +355,8 @@ img.king-yeshua {
     background-image: url('images/Western_Wall.JPG');
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.143);
+
+    /* box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.143); */
   }
 
   .border {
