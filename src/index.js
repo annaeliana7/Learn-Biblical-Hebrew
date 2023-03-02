@@ -1,4 +1,5 @@
 import './style.css';
+import './style-about.css';
 import './about.html';
 
 const hamburgerBtn = document.querySelector('.icon-menu-mobile img');
