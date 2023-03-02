@@ -46,12 +46,6 @@ Learn Biblical Hebrew is a repository built with HTML5, CSS3, JavaScript, linter
 
 <br>
 
-## 🏆 Kanban Template
-
-This project was developed using a Kanban board approach. The Kanban board used during the development of this project can be accessed here: [Kanban Board Link](https://github.com/annaeliana7/Learn-Biblical-Hebrew/projects/1)
-
-<br>
-
 ## 🛠 Built With <a name="built-with"></a>
 
     HTML
