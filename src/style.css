@@ -50,13 +50,26 @@ body {
   align-items: center;
   z-index: 100;
 }
+/* change color of menu icon */
+.icon-menu-mobile img {
+  filter: invert(66%) sepia(0%) saturate(0%) hue-rotate(333deg) brightness(66%) contrast(66%);
+  height: 66%;
+  object-fit: cover;
+  padding-bottom: 15px;
+}
+.main-nav .icon-nav img {
+  height: 100%;
+  object-fit: cover;
+}
 
-.nav-mobile .cross {
+.nav-mobile .cross img {
   position: absolute;
-  right: 20px;
-  top: 20px;
-  width: 50px;
+  right: 40px;
+  top: 40px;
+  width: 30px;
+  height: auto;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .nav-mobile .container {
@@ -68,7 +81,7 @@ body {
   gap: 20px;
   height: 100vh;
   width: 100%;
-  padding-right: 100px;
+  padding-right: 73px;
 }
 
 /* Transitions/Animations- increase font size  */
@@ -91,7 +104,7 @@ body {
 
 .nav-mobile .container li a {
   text-decoration: none;
-  color: #c3b3d3;
+  color: #404040;
   font-size: 2em;
 }
 
@@ -159,7 +172,6 @@ body {
 .main-nav .icon-menu-mobile {
   display: flex;
   align-items: center;
-  justify-content: center;
   cursor: pointer;
 }
 
@@ -180,6 +192,13 @@ body {
   background-color: transparent;
   border: 5px solid var(--red-color);
   color: var(--red-color);
+}
+
+/* move mobile menu to the right */
+.icon-menu-mobile {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 /* ******* banner section ******* */
