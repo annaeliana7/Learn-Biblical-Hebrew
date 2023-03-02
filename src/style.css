@@ -179,6 +179,7 @@ body {
   text-transform: uppercase;
   font-size: 1.1em;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.725);
+  background-color: rgba(245, 222, 179, 0.587);
   font-weight: bold;
   margin: 1em 0 0 0;
   line-height: 2em;
@@ -343,6 +344,7 @@ img.king-yeshua {
   .banner p {
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.725);
+    background-color: rgba(245, 222, 179, 0.587);
   }
 
   .banner {
