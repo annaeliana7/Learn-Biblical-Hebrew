@@ -338,7 +338,7 @@ img.king-yeshua {
   width: 100%;
   max-width: 500px;
   z-index: 1;
-  margin: 80px auto;
+  margin: 53px auto;
   align-self: center;
   border-top: solid 1px;
   border-bottom: solid 1px;
@@ -372,8 +372,12 @@ img.king-yeshua {
 
 /* increase header size after 600px */
 @media all and (min-width: 600px) {
+  .jquote {
+    margin: 75px auto;
+  }
+
   .jquote h1 {
-    font-size: 66px;
+    font-size: 44px;
   }
 
   /* Jquote subheader */
