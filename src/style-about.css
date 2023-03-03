@@ -4,7 +4,7 @@
   --white-color: #fff;
   --black-color: #272a31;
   --charcoal-grey: #404040;
-  --Turquoise: #33cccc;
+  --Turquoise: #3cc;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
@@ -73,6 +73,14 @@ body {
   height: auto;
   cursor: pointer;
   object-fit: cover;
+}
+
+.container {
+  background-color: #33ccccc8;
+  color: #fff;
+  padding: 10px;
+  background-size: contain;
+  padding-bottom: 100px;
 }
 
 .nav-mobile .container {
@@ -348,7 +356,7 @@ a {
   .content h2 {
     font-size: 25px;
     margin-top: 50px;
-    padding-top:0;
+    padding-top: 0;
   }
 
   .content span {
@@ -389,14 +397,6 @@ a {
 .contact .input-field {
   border: none;
   margin: 0 28px 15px 7px;
-}
-
-.container {
-  background-color: #33ccccc8;
-  color: #fff;
-  padding: 10px;
-  background-size: contain;
-  padding-bottom: 100px;
 }
 
 .contact .title {
@@ -471,12 +471,12 @@ a {
 }
 
 @media all and (min-width: 768px) {
-/* contact us */
+  /* contact us */
 
-.wrap-contact {
-  max-width: 500px;
-  margin: 0 auto;
-}
+  .wrap-contact {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
   .sub-butn-center {
     text-align: center;
