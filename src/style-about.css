@@ -75,14 +75,6 @@ body {
   object-fit: cover;
 }
 
-.container {
-  background-color: #33ccccc8;
-  color: #fff;
-  padding: 10px;
-  background-size: contain;
-  padding-bottom: 100px;
-}
-
 .nav-mobile .container {
   list-style-type: none;
   display: flex;
@@ -397,6 +389,14 @@ a {
 .contact .input-field {
   border: none;
   margin: 0 28px 15px 7px;
+}
+
+.container-contact {
+  background-color: #33ccccc8;
+  color: #fff;
+  padding: 10px;
+  background-size: contain;
+  padding-bottom: 100px;
 }
 
 .contact .title {
