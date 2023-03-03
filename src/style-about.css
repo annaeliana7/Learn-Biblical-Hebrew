@@ -4,7 +4,7 @@
   --white-color: #fff;
   --black-color: #272a31;
   --charcoal-grey: #404040;
-  --Turquoise: #33cccc;
+  --Turquoise: #3cc;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
@@ -248,7 +248,7 @@ a {
   min-height: 100vh;
   width: 85vw;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .image {
@@ -348,7 +348,7 @@ a {
   .content h2 {
     font-size: 25px;
     margin-top: 50px;
-    padding-top:0;
+    padding-top: 0;
   }
 
   .content span {
@@ -370,6 +370,124 @@ a {
   .icons li i {
     font-size: 15px;
   }
+}
+
+/* ******* contact us ******* */
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.contact {
+  background-color: #fff;
+  padding-top: 15px;
+}
+
+.contact .input-field {
+  border: none;
+  margin: 0 28px 15px 7px;
+}
+
+.container-contact {
+  background-color: #33ccccc8;
+  color: #fff;
+  padding: 10px;
+  background-size: contain;
+  padding-bottom: 100px;
+}
+
+.contact .title {
+  margin-top: 103px;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.contact-descrip {
+  text-align: center;
+  background: #33cccc0d;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 10px;
+  line-height: 28px;
+}
+
+.slect-form {
+  margin: 0 auto;
+  padding: 14px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 100%;
+  margin: 14px 0;
+  font-size: 17px;
+  padding: 10px;
+  color: #172b4d;
+  line-height: 20px;
+}
+
+.input-form:focus {
+  border: 1px solid #b3bac5;
+}
+
+.text-form {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  min-height: 140px;
+  padding: 10px;
+  margin: 5px 0;
+  color: #b3bac5;
+  font-family: 'Poppins', sans-serif;
+  line-height: 20px;
+  width: 100%;
+  font-size: 17px;
+}
+
+.submit-button {
+  border: 1px solid #fff;
+  align-self: flex-start;
+  border-radius: 5px;
+  margin: 7px 0;
+  color: #707070;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 10px 58px;
+}
+
+.submit-button:hover {
+  background: #c3b3d3;
+  color: #fff;
+}
+
+@media all and (min-width: 768px) {
+  /* contact us */
+
+  .wrap-contact {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .sub-butn-center {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* contact validation */
+
+.error {
+  font-weight: bold;
 }
 
 /* ******* footer ******* */
