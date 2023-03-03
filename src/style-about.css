@@ -11,7 +11,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -104,6 +103,13 @@ a {
 .bottom-nav li a {
   color: var(--black-color);
   text-decoration: none;
+}
+
+.links li a {
+  text-transform: uppercase;
+  color: #777;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .bottom-nav a:hover {
@@ -228,6 +234,140 @@ a {
 .btn-action:hover {
   background-color: white;
   color: #c3b3d3;
+}
+
+/* ******* about section ******* */
+
+/* about section */
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f4f4f4;
+  padding: 25px 25px 25px 25px;
+  min-height: 100vh;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.image {
+  background-image: url("images/anna-cartoon.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.content {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 6px;
+  opacity: 0.9;
+  padding-top: 15px;
+}
+
+.content span {
+  height: 0.5px;
+  width: 80px;
+  background: #777;
+  margin: 30px 0;
+}
+
+.content p {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  opacity: 0.7;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.links {
+  margin: 15px 0;
+}
+
+.links li {
+  border: 0.5px solid #777;
+  list-style: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 160px;
+  text-align: center;
+}
+
+.links li:hover {
+  border-color: #3cc;
+}
+
+.links li:hover a {
+  color: #3cc;
+}
+
+.vertical-line {
+  height: 30px;
+  width: 0.5px;
+  background: #777;
+  margin: 0 auto;
+}
+
+/* mobile version */
+
+@media (max-width: 992px) {
+  .about-section {
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .image {
+    height: 100vh;
+    width: 100%;
+    align-content: center;
+  }
+
+  .content {
+    padding-bottom: 40px;
+  }
+
+  .content p {
+    font-size: 16px;
+    width: 75%;
+  }
+
+  .content h2 {
+    font-size: 25px;
+    margin-top: 50px;
+    padding-top:0;
+  }
+
+  .content span {
+    margin: 20px 0;
+  }
+
+  .links li a {
+    font-size: 16px;
+  }
+
+  .links {
+    margin: 5px 0;
+  }
+
+  .links li {
+    padding: 6px 10px;
+  }
+
+  .icons li i {
+    font-size: 15px;
+  }
 }
 
 /* ******* footer ******* */
