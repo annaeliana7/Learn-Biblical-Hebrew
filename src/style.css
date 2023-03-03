@@ -376,17 +376,17 @@ img.king-yeshua {
     font-size: 66px;
   }
 
-/* Jquote subheader */
-.jquote h3 {
-  position: relative;
-  color: #fff;
-  font-size: 1.4rem;
-  font-weight: normal;
-  line-height: 1;
-  margin: 0;
-  padding-top: 20px;
-  z-index: 1;
-}
+  /* Jquote subheader */
+  .jquote h3 {
+    position: relative;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding-top: 20px;
+    z-index: 1;
+  }
 }
 
 /* ******* video link ******* */
