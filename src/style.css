@@ -270,7 +270,7 @@ body {
 
 img.king-yeshua {
   max-width: 75%;
-  width: 66%;
+  padding: 5px;
 }
 
 /* ******* carousel ******* */
@@ -319,13 +319,12 @@ img.king-yeshua {
 
 .yess-quote {
   /* background-color */
-  background-image: linear-gradient(180deg, #272a31 25%, #c3b3d3 50%, #272a31 75%);
+  background-image: linear-gradient(180deg, #272a31 25%, #d1b48cb3 50%);
 }
 
 /* center the Jquote in the page */
 .jquote-wrapper {
   display: flex;
-  height: 70vh;
   padding: 0 20px;
 }
 
@@ -339,7 +338,7 @@ img.king-yeshua {
   width: 100%;
   max-width: 500px;
   z-index: 1;
-  margin: 80px auto;
+  margin: 53px auto;
   align-self: center;
   border-top: solid 1px;
   border-bottom: solid 1px;
@@ -349,10 +348,15 @@ img.king-yeshua {
 .jquote h1 {
   position: relative;
   color: #fff;
-  font-size: 33px;
+  font-size: 25px;
   font-weight: 800;
   line-height: 1;
   margin: 0;
+}
+
+.jquote h3 {
+  padding-top: 15px;
+  font-size: 20px;
 }
 
 /* Jquote right double quotes */
@@ -368,21 +372,25 @@ img.king-yeshua {
 
 /* increase header size after 600px */
 @media all and (min-width: 600px) {
-  .jquote h1 {
-    font-size: 66px;
+  .jquote {
+    margin: 75px auto;
   }
-}
 
-/* Jquote subheader */
-.jquote h3 {
-  position: relative;
-  color: #fff;
-  font-size: 1.4rem;
-  font-weight: normal;
-  line-height: 1;
-  margin: 0;
-  padding-top: 20px;
-  z-index: 1;
+  .jquote h1 {
+    font-size: 44px;
+  }
+
+  /* Jquote subheader */
+  .jquote h3 {
+    position: relative;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding-top: 20px;
+    z-index: 1;
+  }
 }
 
 /* ******* video link ******* */
@@ -462,6 +470,12 @@ img.king-yeshua {
 
   .nav-mobile {
     display: none !important;
+  }
+
+  /* King Image */
+  img.king-yeshua {
+    max-width: 35%;
+    padding: 16px;
   }
 
   /* banner */
