@@ -247,6 +247,7 @@ a {
   min-height: 100vh;
   width: 85vw;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 .image {
