@@ -1,6 +1,8 @@
 import './style.css';
 import './style-about.css';
+import './style-biblical-hebrew.css';
 import './about.html';
+import './biblical-hebrew.html';
 
 const hamburgerBtn = document.querySelector('.icon-menu-mobile img');
 const crossBtn = document.querySelector('.cross img');
