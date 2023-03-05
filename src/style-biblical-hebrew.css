@@ -314,7 +314,7 @@ body {
   text-align: center;
   letter-spacing: 3px;
   margin: 0;
-  padding:15px;
+  padding: 15px;
 }
 
 @media (max-width: 768px) {
@@ -337,7 +337,7 @@ body {
   }
 
   .video-gallery-title {
-  font-size: 15px;
+    font-size: 15px;
   }
 }
 
