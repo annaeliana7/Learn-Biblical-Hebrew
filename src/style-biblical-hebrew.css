@@ -212,7 +212,7 @@ body {
 }
 
 .video-overlay video {
-  max-width: 80%;
+  max-width: 90%;
   height: 70%;
   margin: 0 auto;
   display: block;
@@ -228,9 +228,7 @@ body {
   }
 
   .video-overlay video {
-    height: 80%;
-    padding-top: 5px;
-    padding-bottom: 25px;
+    height: 66%;
   }
 }
 
