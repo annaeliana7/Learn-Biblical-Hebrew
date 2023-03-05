@@ -304,6 +304,19 @@ body {
   height: auto;
 }
 
+/* video gallery titles */
+.video-gallery-title {
+  background-color: #272a31;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0;
+  padding:15px;
+}
+
 @media (max-width: 768px) {
   .video-gallery-background-container {
     background-image: url(images/8_Biblical\ Text.jpg);
@@ -321,6 +334,10 @@ body {
     width: calc(100% - 20px);
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+
+  .video-gallery-title {
+  font-size: 15px;
   }
 }
 
