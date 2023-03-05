@@ -60,6 +60,12 @@ body {
   padding-bottom: 15px;
 }
 
+.video-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .main-nav .icon-nav img {
   height: 100%;
   object-fit: cover;
@@ -182,6 +188,50 @@ body {
   background-color: transparent;
   border: 5px solid var(--red-color);
   color: var(--red-color);
+}
+
+/* ******* video link ******* */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  height: 100%;
+}
+
+.video-overlay video {
+  max-width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    height: 45vh;
+  }
+
+  .video-overlay video {
+    height: 80%;
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
 }
 
 /* ******* footer ******* */
