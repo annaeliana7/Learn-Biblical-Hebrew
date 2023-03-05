@@ -60,6 +60,12 @@ body {
   padding-bottom: 15px;
 }
 
+.video-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .main-nav .icon-nav img {
   height: 100%;
   object-fit: cover;
@@ -193,12 +199,6 @@ body {
   overflow: hidden;
 }
 
-.video-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .video-overlay {
   position: absolute;
   top: 0;
@@ -223,15 +223,15 @@ body {
 }
 
 @media (max-width: 768px) {
-.video-container {
-height: 45vh;
-}
+  .video-container {
+    height: 45vh;
+  }
 
-.video-overlay video {
-  height: 80%;
-  padding-top: 5px;
-  padding-bottom: 25px;
-}
+  .video-overlay video {
+    height: 80%;
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
 }
 
 /* ******* footer ******* */
