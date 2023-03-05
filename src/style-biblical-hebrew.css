@@ -272,6 +272,75 @@ body {
   }
 }
 
+/* ******* video gallery ******* */
+.video-gallery-background-container {
+  background-image: url(images/8_Biblical\ Text.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.video-gallery-contain {
+  position: relative;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 50px;
+  padding-left: 65px;
+  padding-top: 37px;
+}
+
+.video-card {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.video-card video {
+  width: 100%;
+  height: auto;
+}
+
+/* video gallery titles */
+.video-gallery-title {
+  background-color: #272a31;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .video-gallery-background-container {
+    background-image: url(images/8_Biblical\ Text.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .gallery-container {
+    padding: 25px;
+    padding-right: 5px;
+  }
+
+  .video-card {
+    width: calc(100% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .video-gallery-title {
+    font-size: 15px;
+  }
+}
+
 /* ******* footer ******* */
 #footer {
   display: none;
