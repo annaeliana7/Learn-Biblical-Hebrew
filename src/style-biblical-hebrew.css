@@ -60,6 +60,21 @@ body {
   padding-bottom: 15px;
 }
 
+.image-front img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.yeshua-title-icon img {
+  width: 45%;
+}
+
+.title-icon img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  width: 45%;
+}
+
 .main-nav .icon-nav img {
   height: 100%;
   object-fit: cover;
@@ -203,12 +218,6 @@ body {
   position: relative;
 }
 
-.image-front img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 /* ******* header/title ******* */
 .header-title {
   justify-content: center;
@@ -228,15 +237,6 @@ body {
 .title-icon {
   display: flex;
   justify-content: center;
-}
-
-.yeshua-title-icon img {
-  width: 45%;
-}
-
-.title-icon img {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-  width: 45%;
 }
 
 .titlepage h2 {
