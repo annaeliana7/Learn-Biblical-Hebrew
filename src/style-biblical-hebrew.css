@@ -60,19 +60,18 @@ body {
   padding-bottom: 15px;
 }
 
-.video-container img {
+.image-front img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
+}
+
+.yeshua-title-icon img {
+  width: 45%;
 }
 
 .title-icon img {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-  width: 45%;
-  padding-right: 9%;
-}
-
-.yeshua-title-icon img {
   width: 45%;
 }
 
@@ -200,7 +199,26 @@ body {
   color: var(--red-color);
 }
 
-/* title/header */
+/* ******* image banner ******* */
+.img-banner {
+  padding-top: 50px;
+  background-color: #272a31;
+}
+
+@media (max-width: 768px) {
+  .img-banner {
+    padding-top: 39px;
+  }
+}
+
+/* ******* image cover page ******* */
+.image-container-header {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+/* ******* header/title ******* */
 .header-title {
   justify-content: center;
 }
@@ -240,48 +258,6 @@ body {
   .titlepage h2 {
     color: #c3b3d3;
     font-size: 1.5rem;
-  }
-}
-
-/* ******* video link ******* */
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 75vh;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.video-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.background-image {
-  height: 100%;
-}
-
-.video-overlay video {
-  max-width: 90%;
-  height: 70%;
-  margin: 0 auto;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@media (max-width: 768px) {
-  .video-container {
-    height: 45vh;
-  }
-
-  .video-overlay video {
-    height: 66%;
   }
 }
 
@@ -390,6 +366,75 @@ body {
   }
 
   .video-gallery-title {
+    font-size: 15px;
+  }
+}
+
+/* ******* video gallery x 4 in a row******* */
+.video-gallery-background-container-2 {
+  background-image: url(images/8_Biblical\ Text.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.video-gallery-contain-2 {
+  position: relative;
+}
+
+.gallery-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 50px;
+  padding-left: 65px;
+  padding-top: 37px;
+}
+
+.video-card-2 {
+  width: 20%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.video-card-2 video {
+  width: 100%;
+  height: auto;
+}
+
+/* video gallery titles x4 in a row */
+.video-gallery-title-2 {
+  background-color: #272a31;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .video-gallery-background-container-2 {
+    background-image: url(images/8_Biblical\ Text.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .gallery-container-2 {
+    padding: 25px;
+    padding-right: 5px;
+  }
+
+  .video-card-2 {
+    width: calc(100% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .video-gallery-title-2 {
     font-size: 15px;
   }
 }
