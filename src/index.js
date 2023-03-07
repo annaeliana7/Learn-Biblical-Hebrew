@@ -1,10 +1,12 @@
 import './style.css';
 import './style-about.css';
 import './style-biblical-hebrew.css';
+import './style-lessons.css';
 import './style-Abba-Yeshua.css';
 import './about.html';
 import './biblical-hebrew.html';
 import './Abba-Yeshua.html';
+import './lessons.html';
 
 const hamburgerBtn = document.querySelector('.icon-menu-mobile img');
 const crossBtn = document.querySelector('.cross img');
