@@ -196,6 +196,19 @@ body {
   }
 }
 
+/* ******* image cover page ******* */
+.image-container-header {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.image-front img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ******* footer ******* */
 #footer {
   display: none;
