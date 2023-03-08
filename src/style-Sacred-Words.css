@@ -60,6 +60,15 @@ body {
   padding-bottom: 15px;
 }
 
+.abba-title-icon img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  width: 45%;
+}
+
+.yeshua-title-icon img {
+  width: 45%;
+}
+
 .main-nav .icon-nav img {
   height: 100%;
   object-fit: cover;
@@ -390,6 +399,118 @@ body {
   .header-cover {
     font-size: 5rem;
     padding: 0 1200px 0 1200px;
+  }
+}
+
+/* ******* header/title ******* */
+.header-title {
+  justify-content: center;
+}
+
+.titlepage {
+  padding: 32px;
+  padding-top: 20px;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.title-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.titlepage h2 {
+  color: #c3b3d3;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  margin: 0;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+}
+
+.border-title {
+  border: 2.5px solid #c3b3d3;
+  width: 66px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .titlepage h2 {
+    color: #c3b3d3;
+    font-size: 1.5rem;
+  }
+}
+
+/* ******* video gallery ******* */
+.video-gallery-background-container {
+  background-image: url(images/8_Biblical\ Text.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.video-gallery-contain {
+  position: relative;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 50px;
+  padding-left: 65px;
+  padding-top: 37px;
+}
+
+.video-card {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.video-card video {
+  width: 100%;
+  height: auto;
+}
+
+/* video gallery titles */
+.video-gallery-title {
+  background-color: #272a31;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .video-gallery-background-container {
+    background-image: url(images/8_Biblical\ Text.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .gallery-container {
+    padding: 25px;
+    padding-right: 5px;
+  }
+
+  .video-card {
+    width: calc(100% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .video-gallery-title {
+    font-size: 15px;
   }
 }
 
