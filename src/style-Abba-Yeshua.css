@@ -184,6 +184,137 @@ body {
   color: var(--red-color);
 }
 
+/* ******* animation cover image ******* */
+#cover-contain {
+  overflow: hidden;
+  margin: 0;
+}
+
+#mainmodal {
+  position: relative;
+  font-family: Arial;
+  top: 0;
+  left: 0;
+  background-image: url(images/Lion.jpg);
+  background-size: cover;
+  background-position: center center;
+  z-index: 99999;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.modalcontent {
+  background: rgba(255, 217, 0, 0.5);
+  width: 100vw;
+  padding: 50px;
+  margin: 0 -50vw;
+  margin-top: 25%;
+}
+
+.breakingtitle {
+  font-size: 50px;
+  background: #70707099;
+  color: #ffd700;
+  padding: 10px;
+  display: inline-block;
+}
+
+#readmorebutton {
+  background: #70707099;
+  color: #ffd700;
+  border-style: none;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#readmorebutton:hover {
+  background-color: rgba(255, 255, 255, 0.295);
+  color: #707070;
+}
+
+.marquee {
+  color: #707070;
+  letter-spacing: 2px;
+  font-weight: 700;
+  padding: 30px;
+  font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 16s linear infinite;
+}
+
+@media only screen and (max-width: 767px) {
+  .breakingtitle {
+    font-size: 30px;
+  }
+  
+  #readmorebutton {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .marquee {
+    font-size: 20px;
+    padding: 10px;
+    animation: none; /* disable animation */
+  }
+  
+  .modalcontent {
+    padding: 20px;
+    margin-top: 45%;
+  }
+
+  .desktop-text {
+    display: none;
+  }
+
+  .mobile-text {
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-text {
+    font-size: 40px;
+    display: block;
+  }
+
+  .mobile-text {
+    display: none;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* opposite side */
+/* @keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
 /* ******* footer ******* */
 #footer {
   display: none;
