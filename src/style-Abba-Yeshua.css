@@ -281,8 +281,12 @@ body {
 
 @media only screen and (min-width: 768px) {
   .desktop-text {
-    font-size: 40px;
+    font-size: 35px;
     display: block;
+  }
+
+  .modalcontent {
+  padding: 28px;
   }
 
   .mobile-text {
