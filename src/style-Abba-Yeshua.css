@@ -370,6 +370,54 @@ body {
   }
 }
 
+/* ******* video link ******* */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.background-image {
+  height: 100%;
+}
+
+.video-overlay video {
+  max-width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    height: 45vh;
+  }
+
+  .video-overlay video {
+    height: 66%;
+  }
+}
+
 /* ******* footer ******* */
 #footer {
   display: none;
