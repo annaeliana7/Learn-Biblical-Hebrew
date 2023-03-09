@@ -71,6 +71,11 @@ body {
   width: 50%;
 }
 
+.abba-title-icon img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  width: 45%;
+}
+
 .main-nav .icon-nav img {
   height: 100%;
   object-fit: cover;
