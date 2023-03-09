@@ -60,6 +60,17 @@ body {
   padding-bottom: 15px;
 }
 
+.video-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.yeshua-title-icon img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  width: 50%;
+}
+
 .main-nav .icon-nav img {
   height: 100%;
   object-fit: cover;
@@ -321,6 +332,91 @@ body {
     transform: translateX(-100%);
   }
 } */
+
+/* ******* header/title ******* */
+.header-title {
+  justify-content: center;
+}
+
+.titlepage {
+  padding: 47px;
+  padding-top: 30px;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.title-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.titlepage h2 {
+  color: rgba(255, 255, 255, 0.49);
+  font-size: 2rem;
+  letter-spacing: 3px;
+  margin: 0;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+}
+
+.border-title {
+  border: 2.5px solid rgba(255, 255, 255, 0.49);
+  width: 66px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .titlepage h2 {
+    color: rgba(255, 255, 255, 0.49);
+    font-size: 1rem;
+  }
+}
+
+/* ******* video link ******* */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  height: 100%;
+}
+
+.video-overlay video {
+  max-width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    height: 45vh;
+  }
+
+  .video-overlay video {
+    height: 66%;
+  }
+}
 
 /* ******* footer ******* */
 #footer {
