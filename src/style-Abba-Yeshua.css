@@ -344,8 +344,8 @@ body {
 }
 
 .titlepage {
-  padding: 47px;
-  padding-top: 30px;
+  padding: 32px;
+  padding-top: 20px;
   background-color: #272a31;
   display: flex;
   flex-direction: column;
@@ -359,8 +359,18 @@ body {
   justify-content: center;
 }
 
+/* .yeshua-title-icon img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  width: 45%;
+}
+
+.abba-title-icon img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  width: 45%;
+} */
+
 .titlepage h2 {
-  color: rgba(255, 255, 255, 0.49);
+  color: #c3b3d3;
   font-size: 2rem;
   letter-spacing: 3px;
   margin: 0;
@@ -369,14 +379,14 @@ body {
 }
 
 .border-title {
-  border: 2.5px solid rgba(255, 255, 255, 0.49);
+  border: 2.5px solid #c3b3d3;
   width: 66px;
   margin-top: 15px;
 }
 
 @media (max-width: 768px) {
   .titlepage h2 {
-    color: rgba(255, 255, 255, 0.49);
+    color: #c3b3d3;
     font-size: 1rem;
   }
 }
