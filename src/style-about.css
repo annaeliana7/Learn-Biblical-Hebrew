@@ -217,7 +217,8 @@ a {
   width: 100%;
   padding: 60px 0;
   text-align: center;
-  background: #33ccccc8;
+  background-color: #272a31;
+  /* background: #33ccccc8; */
   color: white;
 }
 
@@ -234,7 +235,7 @@ a {
 
 .btn-action:hover {
   background-color: white;
-  color: #c3b3d3;
+  color: #33ccccc8;
 }
 
 /* ******* about section ******* */
@@ -307,11 +308,11 @@ a {
 }
 
 .links li:hover {
-  border-color: #3cc;
+  border-color: #33ccccc8;
 }
 
 .links li:hover a {
-  color: #3cc;
+  color: #33ccccc8;
 }
 
 .vertical-line {
@@ -392,7 +393,7 @@ a {
 }
 
 .container-contact {
-  background-color: #33ccccc8;
+  background-color: #272a31;
   color: #fff;
   padding: 10px;
   background-size: contain;
@@ -466,7 +467,7 @@ a {
 }
 
 .submit-button:hover {
-  background: #c3b3d3;
+  background: #33ccccc8;
   color: #fff;
 }
 
