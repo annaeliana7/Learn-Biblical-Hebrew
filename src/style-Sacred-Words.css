@@ -237,7 +237,7 @@ body {
       rgba(255, 255, 255, 0.7) 0%,
       rgba(255, 255, 255, 0.7) 100%
     ),
-    url('images/Dome\ of\ the\ Rock-night.jpg');
+    url('images/Dome\ of\ the\ Rock-night-mobile.jpg');
   background-blend-mode: soft-light;
   background-size: cover;
   background-position: center center;
@@ -393,7 +393,24 @@ body {
 /* desktop version */
 @media all and (min-width: 768px) {
   .animation-container {
-    min-height: 88vh;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38rem;
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.7) 0%,
+        rgba(255, 255, 255, 0.7) 100%
+      ),
+      url('images/Dome\ of\ the\ Rock-night-desktop.jpg');
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center center;
+    padding: 2rem;
   }
 
   .header-cover {
