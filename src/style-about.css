@@ -218,9 +218,10 @@ a {
   padding: 60px 0;
   text-align: center;
   background-color: #272a31;
-  /* background: #33ccccc8; */
   color: white;
 }
+
+/* background: #33ccccc8; */
 
 .btn-action {
   font-size: 20px;
