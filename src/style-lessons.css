@@ -201,6 +201,25 @@ body {
   color: var(--red-color);
 }
 
+/* p tag message on mobile popup nav */
+.dialog {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  height: 30%;
+  width: 100%;
+}
+
+.dialog p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
 /* title/header */
 .header-title {
   justify-content: center;
