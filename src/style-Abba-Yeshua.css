@@ -201,7 +201,7 @@ body {
 }
 
 /* ******* animation cover image ******* */
-#cover-contain {
+#animate-cover {
   overflow: hidden;
   margin: 0;
 }
@@ -214,7 +214,6 @@ body {
   background-image: url(images/Lion.jpg);
   background-size: cover;
   background-position: center center;
-  z-index: 99999;
   height: 80vh;
   width: 100vw;
   display: flex;
